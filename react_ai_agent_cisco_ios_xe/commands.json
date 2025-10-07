@@ -1,0 +1,11 @@
+[
+  {
+    "command": "Show access-session event-logging mac {mac}"
+  },
+  {
+    "command": "uci show network.lan.ipaddr"
+  },
+  {
+    "command": "traceroute {ip_address}"
+  }
+]

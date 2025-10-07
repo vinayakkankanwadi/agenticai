@@ -1,0 +1,18 @@
+devices:
+  router:
+    alias: "Router"
+    type: router
+    os: linux
+    platform: router
+    credentials:
+      default:
+        username: admin
+        password: password
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.0.1
+        port: 22
+        arguments:
+          connection_timeout: 360
+          learn_hostname: true
